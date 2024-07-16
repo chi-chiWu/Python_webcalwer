@@ -12,6 +12,7 @@ headers = {
 }
 # 帶入 headers 參數
 response = requests.get(url, headers=headers)
+
 # 輸出網頁 HTML 原始碼
 print(f"內容 :{response.text}")
 
